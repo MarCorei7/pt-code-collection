@@ -16,7 +16,6 @@ newFile = open("unique.txt", 'w')
 newcount = 0
 for i in s:
 	newFile.write(i)
-	newFile.write("\n")
 	newcount += 1
 newFile.close()
 print("total: " + str(newcount))
